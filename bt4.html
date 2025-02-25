@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Employee Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+
+    <style>
+        .Basic-info-container {
+           width: 100%;
+           height: auto;
+        }
+        input{ 
+            border: none;
+        } 
+        .spacing3 input{
+            border: 1px solid black;
+            margin-left: 65px;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .spacing1{
+            margin-top: 5px;
+        }
+        .spacing1 input{
+            margin-left: 50px;
+        }
+        .spacing2 input{
+            margin-left: 65px;
+        }
+        .spacing1, .spacing2, .spacing3, .title, .suffix, .ssn, .report {
+            margin-inline-start: 10px;
+            margin-bottom: 5px;
+            
+        }
+        .Gender-container{ 
+            margin-inline-start: 10px;
+            margin-bottom: 5px;
+            margin-left: 135px;
+        }
+        .para{
+            margin-left: 10px;
+        }
+        
+        .report input{
+            margin-left: 10px;
+            border: 1px solid black;
+        }
+        .title input{
+            margin-left: 115px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .suffix input{
+            margin-left: 105px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .birth-date input{
+            margin-left: 78px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .birth-date{
+            margin-inline-start: 10px;
+            margin-bottom: 5px;
+        }
+        .hire-date input{
+            margin-left: 83px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .hire-date{
+            margin-inline-start: 10px;
+            margin-bottom: 5px;
+        }
+        .ssn input{
+            margin-left: 10px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .report select{
+            margin-left: 75px;
+
+        }
+        .city, .address, .email, .region, .phone{
+            margin-inline-start: 10px;
+            margin-bottom: 5px;
+        }
+        .country{
+            margin-left: 10px;
+        }
+        .city input, .address input, .email input, .region input, .phone input{
+            margin-left: 85px;
+            border: 1px solid black;
+            box-shadow: 0.1px 0.5px  black inset;
+        }
+        .city input{
+            margin-left: 135px;
+        }
+        .email input{
+            margin-left: 125px;
+        }
+        .region input{
+            margin-left: 117px;
+        }
+        .address input{
+            margin-left: 110px;
+        }
+        .phone input{
+            margin-left: 125px;
+        }
+        .country select{
+            margin-left: 111px;
+            margin-bottom: 5px;
+        }
+        .email{
+            margin-top: 5px;
+        }
+
+        body{
+            border: 6px dashed gray;
+            background-color: lightgray;
+        }
+        .box1, .box2{
+            width: 100%;
+            height: 2px;
+            background-color: gray
+            
+        }
+        
+        h1{
+            font-size: 18px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .submit {
+            width: 100%;
+            margin-top: 20px;
+            
+        }
+        .submit input{
+            margin-left: 83%;
+            margin-top: 20px;
+            width: 100px;
+            height: 30px;
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+            
+        }
+    </style>
+
+    <body>
+        <div>
+            <h1>Basic Info</h1>
+        </div>
+        <div class="box1"></div>
+
+        <div class="Basic-info-container">
+    
+                <form action="">
+                    <div class="spacing1">
+                        <label for="eID">Employee ID: </label>
+                        <input type="text" id="eID" name="eID">
+                        <br>
+                    </div>
+                    
+                    <div class="spacing2">
+                        <label for="Lname">Last Name: </label>
+                        <input type="text" id="Lname_id" name="Lname">
+                        <br>
+                    </div>
+                    
+                    <div class="spacing3">
+                        <label for="Fname">First Name: </label>
+                        <input type="text" id="Fname_id" name="Fname">
+                        <br>
+                    </div>
+                    <p class="para">Gender:</p>
+                    <div class="Gender-container">
+                        <p>
+                          
+                            <input type="radio" id="Gender_male_id" name="Gender" value="Male">
+                            <label for="Gender_male">Male</label>
+                            <br>
+                            <input type="radio" id="Gender_female_id" name="Gender" value="Female">
+                            <label for="Gender_female">Female</label>
+                            <br>
+                            <input type="radio" id="Gender_other1_id" name="Gender" value="XXX">
+                            <label for="Gender_other1">XXX</label>
+                            <br>
+                            <input type="radio" id="Gender_other2_id" name="Gender" value="ZZZ">
+                            <label for="Gender_other2">ZZZ</label>
+                        </p>
+                    </div>
+                    
+                    <div class="title">
+                        <label for="Title">Title</label>
+                        <input type="text" id="Title" name="Title">
+                        <br>
+                    </div>
+                    
+                    <div class="suffix">
+                        <label for="Suffix">Suffix</label>
+                        <input type="text" id="Suffix_id" name="Suffix">
+                        <br>
+                    </div>
+
+                    <div class="birth-date">
+                        <label for="Birth-date">Birth Date</label>
+                        <input type="date" id="Birth-date_id" name="Birth-date">
+                        <br>
+                    </div>
+
+                    <div class="hire-date">
+                        <label for="Hire-date">Hire Date</label>
+                        <input type="date" id="Hire-date_id" name="Hire-date">
+                        <br>
+                    </div>
+                    
+                    <div class="ssn">
+                        <label for="SSN">SSN # (if applicable)</label>
+                        <input type="text" id="SSN_id" name="SSN">
+                        <br>
+                    </div>
+                    
+                    <div class="report">
+                        <label for="report">Reports To</label>
+                        <select name="report" id="report">
+                            <option value="Buchanan">Buchanan</option>
+                            <option value="hieu">Hieu</option>
+                            <option value="T.Anh">T.Anh</option>
+                        </select>
+                    </div>
+
+
+                </form>
+        
+        </div>
+             <form action="">
+                <div  class="contact-info-container">
+                    <div> <h1>Contact Info</h1></div>
+                    <div class="box2"></div>
+                        <div class="email">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="address">
+                            <label for="address">Address: </label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                        <div class="city">
+                            <label for="city">City: </label>
+                            <input type="text" id="city" name="city">
+                        </div>
+                        <div class="region">
+                            <label for="region">Region: </label>
+                            <input type="text" id="region" name="region">
+                        </div>
+                        <div class="country">
+                            <label for="country">Country: </label>
+                            <select name="country" id="country">
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="USA">USA</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Russian">Russian</option>
+                            </select>
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone: </label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        
+        
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+             </form>
+    
+
+
+    </body>
+</html>
