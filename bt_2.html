@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+
+    <style>
+        @media (max-width: 767px){
+            .itemBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                
+            }
+            .link{
+                font-family: sans-serif;
+                text-decoration: none;
+                color: black;
+    
+            }
+    
+            .itemBox div{
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                height: auto;
+                width: 350px;
+                padding:10px;
+                margin: 10px;
+                transition: all 200ms ease-in-out;
+            }
+            .itemBox div:hover{
+                box-shadow: 0px 0px 0px 1px rgb(96, 188, 231) inset;
+                transform: scale(1.05);
+                
+            }
+    
+            .itemBox img{
+                border-radius: 10px;
+                width: 350px;
+               
+            }
+    
+            .link:hover{
+                color:blue;
+            }
+            .head{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .head .decor{
+                background-color: brown;
+                width: 5px;
+                height: 20px;
+                margin-right: 10px;
+                
+            }
+            .head h2{
+                padding: 0;
+                color:brown;
+            }
+        }
+        @media (min-width: 768px) and (max-width:1023px) {
+            .itemBox{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+            .link{
+                font-family: sans-serif;
+                text-decoration: none;
+                color: black;
+    
+            }
+    
+            .itemBox div{
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                height: auto;
+                width: 350px;
+                padding:10px;
+                margin: 10px;
+                transition: all 200ms ease-in-out;
+            }
+            .itemBox div:hover{
+                box-shadow: 0px 0px 0px 1px rgb(96, 188, 231) inset;
+                transform: scale(1.05);
+                
+            }
+    
+            .itemBox img{
+                border-radius: 10px;
+                width: 350px;
+               
+            }
+    
+            .link:hover{
+                color:blue;
+            }
+            .head{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .head .decor{
+                background-color: brown;
+                width: 5px;
+                height: 20px;
+                margin-right: 10px;
+                
+            }
+            .head h2{
+                padding: 0;
+                color:brown;
+            }
+        }
+        
+        @media (min-width:1024px) {
+            body{
+                background-color: #f9f9f9;
+                
+            }
+            .itemBox{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+    
+            .link{
+                font-family: sans-serif;
+                text-decoration: none;
+                color: black;
+    
+            }
+    
+            .itemBox div{
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                height: auto;
+                width: 350px;
+                padding:10px;
+                margin: 10px;
+                transition: all;
+                transition-duration: 200ms;
+                transition-timing-function: ease-in-out;
+                
+            }
+            .itemBox div:hover{
+                box-shadow: 0px 0px 0px 1px rgb(96, 188, 231) inset;
+                transform: scale(1.05);
+                
+            }
+    
+            .itemBox img{
+                border-radius: 10px;
+                width: 350px;
+               
+            }
+    
+            .link:hover{
+                color:blue;
+            }
+            .head{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .head .decor{
+                background-color: brown;
+                width: 5px;
+                height: 20px;
+                margin-right: 10px;
+                
+            }
+            .head h2{
+                padding: 0;
+                color:brown;
+            }
+        }
+      
+ 
+    </style>
+
+
+    <body>
+        <div class="head">
+            <h6 class="decor"> 
+                <h2>KHÓA HỌC SẮP KHAI GIẢNG</h2>
+            </h6>
+       
+        </div>
+      
+
+        <div class="itemBox">
+
+            <div class="box1">
+                <a href="" class="link">
+                    <img src="https://aptech.vn/wp-content/uploads/2023/05/banner-hoc-bong-chien-binh-IT-hanoiaptech.png.webp" height="150px" width="300px" alt="img1">
+                    <h3>Lập trình viên quốc tế</h3>
+                </a>
+                
+                <P>Chương trình đào tạo chuẩn quốc tế và toàn diên phù hợp với sinh viên tốt nghiệp THPT</P>
+                <p>Học bổng: 15.000.000 VNĐ</p>
+                <p>Khai giảng: 2/2025</p>
+                <p>Thời lượng: 2-2.5 năm</p>
+            </div>
+            <div class="box2">
+                <a href="" class="link">
+                    <img src="https://aptech.fpt.edu.vn/wp-content/uploads/2022/06/tham-gia-khoa-hoc-lap-trinh-web-full-stack-la-con-duong-don-gian-nhat-de-tro-thanh-mot-lap-trinh-vien-website.jpg" height="150px" width="300px" alt="img2">
+                    <h3>Lập trình Web FullStack</h3>
+                </a>
+                
+                <P>Khóa học phù hợp với người mới bắt đầu</P>
+                <p>Ưu đãi giảm 15% học phí</p>
+                <p>Khai giảng: 3/2025</p>
+                <p>Thời lượng: 6 tháng</p>
+      
+            </div>
+            <div  class="box3">
+                <a href="" class="link">
+                    <img src="https://static.ladipage.net/58ed8c9934608a145cd4a4ed/1200-x-628-1-20210729111159.png" height="150px" width="300px" alt="img3">
+                    <h3>Lập trình JAVA Fullstack</h3>
+                </a>
+
+                <P>Phát triển ứng dụng web từ cơ bản đến nâng cao bằng ngôn ngữ lập trình java</P>
+                <p>Ưu đãi giảm 15% học phí</p>
+                <p>Khai giảng: 3/2025</p>
+                <p>Thời lượng: 236 giờ</p>
+            </div>
+
+        </div>
+
+        <div class="itemBox">
+            <div class="box4">
+                <a href="" class="link">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-php.png.webp" height="150px" width="300px" alt="img4">
+                    <h3>Lập trình PHP & LARAVEL</h3>
+                </a>
+  
+                <P>PHP là một trong các ngôn ngữ thiết kế web mạnh mẽ nhất</P>
+                <p>Học phí: 9.600.000 VNĐ</p>
+                <p>Khai giảng: 5/3/2025</p>
+                <p>Thời lượng: 36 giờ</p>
+            </div>
+            <div  class="box5">
+                <a href="" class="link">
+                    <img src="https://aptech.vn/wp-content/uploads/2020/03/Banner_laptrinh.net_-01.png " height="150px" width="300px" alt="img5">
+                    <h3>Khóa Học Lập Trình .NET</h3>
+                </a>
+
+                <P>Phát triến ứng dụng web sử dụng nền tảng ASP.NET Core MVC.</P>
+                <p>Học phí: 6.000.000 VNĐ</p>
+                <p>Khai giảng: 2/2025</p>
+                <p>Thời lượng: 40 giờ</p>
+            </div>
+            <div  class="box6">
+                <a href="" class="link">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/06/lap-trinh-csdl-voi-sql.png.webp" height="150px" width="300px" alt="img6">
+                    <h3>Lập Trình SQL SERVER</h3>
+                </a>
+        
+                <P>Trang bị những kiến thức nền tảng vững chắc về SQL Server.</P>
+                <p>Học phí: 4.500.000 VNĐ</p>
+                <p>Khai giảng: 2/2025</p>
+                <p>Thời lượng: 30 giờ</p>
+            </div>
+        </div>
+
+    </body>
+</html>
