@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+
+    <style>
+        body{
+            background-color: #dff9fb;
+            box-sizing: border-box;
+            overflow-x: hidden
+        }
+        nav{
+            background-image: url(ocean.jpg);
+            display: flex;
+            justify-content: space-between;
+            border: 5px solid rgb(225, 146, 18);
+            width: 100%;
+            gap: 10px
+         
+        }
+        nav h1 {
+            margin-right: auto;
+        }
+  
+        head, .title-Box{
+            background-image: url(ocean.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 250px;
+            background-size: cover;
+        }
+        .title-Box{
+            background-image: url(ocean.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid pink;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .title-Box .box{
+            background-color: rgba(0, 0, 0, 0.65);
+            border-radius: 7px;
+            
+        }
+        .box h1, .box h4{
+            color:#ffff;
+        }
+        .button-Box{
+            display: inline-block;
+            background-color: rgba(233, 215, 10, 0.8);
+            color: black;
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 5px 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+
+            
+        }
+        .main-Box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .main-Box div{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            height: auto;
+            width: 300px;
+            gap:10px;
+            
+            
+        }
+   
+        .main-Box img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        
+        }
+
+        .box{
+            border: 1px solid black;
+            width: 500px;
+        }
+        .hightlight{
+            position: relative;
+            left: 45%;
+            right: 45px;
+            margin: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        .main-Box2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .main-Box2 div{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            height: auto;
+            width: 300px;
+            gap:10px;
+        }
+
+        .main-Box2 img{
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .footer-Box{
+            background-color:  #0f0c0f;
+            position: relative;
+            height: 50px;
+            width: auto;
+            border: 5px solid rgb(228, 55, 228);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+        .footer-Box img{
+            background-color: #ccc;
+            margin: 10px;
+            border-radius: 8px;
+
+        }
+        .fb-icon{ 
+            height: 40px;
+
+        }
+        .insta-icon{
+            height: 40px;
+       
+        }
+    
+    </style>
+    <header class="head">
+        <nav>
+            <h1 style="color: yellow;"><i>TRAVEL GOALS</i></h1>
+            <h5>Destinations</h5>
+            <h5>About</h5>
+        </nav>
+    </header>
+
+    <body>
+        <div class="title-Box">
+            <div class="box">
+                   <h1>JOES TRAVEL PAGE</h1>
+                <h4>LETS EXPLORE THE WORLD TOGETHER</h4>
+                <h5 class="button-Box">Discover places</h5>
+            </div>
+                
+        </div>
+        <h3 class="hightlight">HIGHLIGHTS</h3>
+        <div class="main-Box">
+          <div>
+            <img src="barcelona.jpg" alt="img1">
+            <h2>BARCELONA</h2>
+  
+              <a href="https://en.wikipedia.org/wiki/Barcelona">SPAIN</a>
+          </div>
+
+          <div>
+            <img src="munich.jpg" alt="img2">
+            <h2>MUNICH</h2>
+              <a href="hhttps://en.wikipedia.org/wiki/Hawaii">GERMANY</a>
+          </div>
+          
+          <div>
+            <img src="miami.jpg" alt="img3">
+   
+            <h2>MIAMI</h2>
+            <a href="https://en.wikipedia.org/wiki/London">USA</a>
+
+          </div>
+          
+        </div>
+       
+        <div class="main-Box2">
+            <div>
+                <img src="miami.jpg" alt="img3">
+       
+                <h2>MIAMI</h2>
+                <a href="https://en.wikipedia.org/wiki/London">USA</a>
+    
+              </div>
+            <div>
+                <img src="miami.jpg" alt="img3">
+       
+                <h2>MIAMI</h2>
+                <a href="https://en.wikipedia.org/wiki/London">USA</a>
+    
+            </div>
+            <div>
+                <img src="miami.jpg" alt="img3">
+       
+                <h2>MIAMI</h2>
+                <a href="https://en.wikipedia.org/wiki/London">USA</a>
+    
+              </div>
+        </div>
+        <footer class="footer-Box">
+            <img src="https://img.icons8.com/ios11/512/facebook-new.png" alt="img" class="fb-icon">
+            <img src="https://pixsector.com/cache/200e7bcc/av16efeffeed4418c90c1.png" alt="img" class="insta-icon">
+        </footer>
+    </body>
+</html>
